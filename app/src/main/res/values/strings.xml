@@ -1,10 +1,22 @@
 <resources>
     <string name="app_name">GeoFencing</string>
-
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="entering_geofence">The rider has entered the geofence</string>
-    <string name="exiting_geofence">The rider is leaving the geofence</string>
-    <string name="start_geofence_service">Strting geofence service</string>
-    <string name="dwelling_geofence">The rider is near the seller</string>
+
+    <string name="entering_geofence">The rider has entered the Geofence</string>
+    <string name="exiting_geofence">The rider has exited the Geofence</string>
+    <string name="unknown_geofence">Unknown Transition</string>
+
+    <string name="geofences_added">Tracking Started</string>
+    <string name="geofences_removed">Tracking Stopped</string>
+
+
+    <string name="not_connected">GoogleApiClient no yet connected. Try again.</string>
+    <string name="geofence_not_available">Geofence not available</string>
+    <string name="geofence_too_many_geofences">Too many Geofences</string>
+    <string name="geofence_too_many_pending_intents">Too many Pending Intents</string>
+    <string name="unknown_geofence_error">Unknown error: the Geofence service is not available now</string>
+    <string name="geofence_transition_invalid_type">Geofence transition invalid %1$d</string>
+
+    <string name="geofence_transition_notification_text">Click notification to return to app</string>
+
 </resources>
